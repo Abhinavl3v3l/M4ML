@@ -16,5 +16,11 @@
   - Linear Combination   :   $a\vec{v} + b\vec{w}$    = Span of    $\vec{v}$ and $\vec{w}$ 
   - **Exceptions** - 
     -  when  $\vec{v}$ or  $\vec{w}$ are in same line of vector then the only direction linear combination can move is forward or backward. 
-    - When both vectors are at origin.
-- 
+    - When both vectors are at origin .
+
+
+
+### Linearly Dependent and Independent
+
+- Linearly Depended - 
+- Linearly Independent
