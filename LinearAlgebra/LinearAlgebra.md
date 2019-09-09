@@ -13,24 +13,26 @@
 - Combination of addition and multiplication on  a pair of scalar vectors can yield any vector in that dimension and is called Span those vectors
   - Set of vectors : ( $\vec{v}$ , $\vec{w}$ ) 
   - Scalar vectors :  $a\vec{v}$ , $b\vec{w}$ 
-  - Linear Combination   :   $a\vec{v} + b\vec{w}$    = Span of    $\vec{v}$ and $\vec{w}$ 
+  - **Linear Combination**   :   $a\vec{v} + b\vec{w}$    = Span of    $\vec{v}$ and $\vec{w}$ 
   - **Exceptions** - 
     -  when  $\vec{v}$ or  $\vec{w}$ are in same line of vector then the only direction linear combination can move is forward or backward. 
     - When both vectors are at origin.
 
 
 
+---
 
+#### Basis Vector
 
+Basis in any dimension space is divided into  Standard Basis and Non-Standard Basis.
 
-
-
+Linear Combination of these vectors yield any vector coordinates in that dimension space.
 
 ---
 
 #### Understanding LT in Linear Transformation
 
-##### T in Linear Transformation 
+##### T in Linear Transformation
 
 ​	**Transformation is a fancy word for a function** that takes an input and spits outs an output.		
 
@@ -56,34 +58,48 @@ A transformation is linear if  and only if
 
 
  In 2 Dimensions,linear Transformation can be represented using a linear combination of  $\hat{i}$ and $\hat{j}$ , which are basis of two vectors.
-
- 
 $$
 x\hat{i} + y\hat{j} = \hat{v}
 $$
-
-
 where $\hat{v}$ is the resultant vector. 
 
+A transformation of one  these vectors can be 
+$$
+h(\hat{i}) = a\hat{i} = \hat{k} 
+$$
+Similarly,
+$$
+h(\hat{j}) = b\hat{i} = \hat{l}
+$$
+and linear combination of these two new vectors are  
+$$
+\hat{k} + \hat{l} = \hat{m} = c\hat{v}
+$$
 
-
-A transformation of one  these vectors can be  $h(\hat{i}) = a\hat{i} = \hat{k}$
-
-Similarly,  $h(\hat{j}) = b\hat{i} = \hat{l}$ 
-
-and linear combination of these two new vectors are  $\hat{k} + \hat{l} = \hat{m} = c\hat{v}$
 
 Hence 
 $$
-h(\hat{i}) = a\hat{i} = \hat{k} \\
-h(\hat{j}) = b\hat{i} = \hat{l}\\ hence \\
-\hat{k} + \hat{l} = \hat{m} \\ OR \\
+\hat{k} + \hat{l} = \hat{m} =c\hat{v} \\ OR \\
 x(a\hat{i}) + y(b\hat{j}) = c\hat{v} \\ OR \\
 xa(\hat{i}) + yb(\hat{j}) = c\hat{v} \\OR \\
 s(\hat{i}) + s'(\hat{j}) = s''\hat{v}
 $$
-where $s,s'$ and $s''$ are some scalar value. 
+where $s,s'$ and $s''$ are some scalar value, they may or may not be same. 
 
-Hence Linear Transformation is some linear combination of scalar and vectors in that dimension.
+Hence, Linear Transformation of 2 vectors is some linear combination of scalar and vectors in that dimension.
+
+> **Linear Algebra is a way to move around in n-dimension space while keeping grid-line parallel and evenly spaced while origin remains fixed.** 
+
+---
+
+
+
+IMPORTANT INTUITION
+
+These vectors basis * scalar will yield a new vector v 
+
+hence a new vector v' can be intuted from transformed i and j i.e. new transformed basis vectors 
+
+---
 
 At the end should know : How Statistical Problem becomes a Linear Algebra Problem
