@@ -63,18 +63,27 @@ x\hat{i} + y\hat{j} = \hat{v}
 $$
 
 
-where $\hat{v}$ is the resultant vector.
+where $\hat{v}$ is the resultant vector. 
 
 
 
+A transformation of one  these vectors can be  $h(\hat{i}) = a\hat{i} = \hat{k}$
 
+Similarly,  $h(\hat{j}) = b\hat{i} = \hat{l}$ 
 
+and linear combination of these two new vectors are  $\hat{k} + \hat{l} = \hat{m} = c\hat{v}$
 
+Hence 
+$$
+h(\hat{i}) = a\hat{i} = \hat{k} \\
+h(\hat{j}) = b\hat{i} = \hat{l}\\ hence \\
+\hat{k} + \hat{l} = \hat{m} \\ OR \\
+x(a\hat{i}) + y(b\hat{j}) = c\hat{v} \\ OR \\
+xa(\hat{i}) + yb(\hat{j}) = c\hat{v} \\OR \\
+s(\hat{i}) + s'(\hat{j}) = s''\hat{v}
+$$
+where $s,s'$ and $s''$ are some scalar value. 
 
-Output vs Transformed output. Since basis are just number and transformed basis are also just numbers. No matter what number are given with output we can figure out the transformation taking place.
-
-
-
-Or given transformation we can figure out output
+Hence Linear Transformation is some linear combination of scalar and vectors in that dimension.
 
 At the end should know : How Statistical Problem becomes a Linear Algebra Problem
